@@ -1,0 +1,6 @@
+framework module Pods_InnovaSchool {
+  umbrella header "Pods-InnovaSchool-umbrella.h"
+
+  export *
+  module * { export * }
+}

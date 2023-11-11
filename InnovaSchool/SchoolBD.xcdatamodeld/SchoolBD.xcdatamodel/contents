@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AlumnoEntity" representedClassName="AlumnoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido" optional="YES" attributeType="String"/>
+        <attribute name="correo" optional="YES" attributeType="String"/>
+        <attribute name="fechaNacimiento" optional="YES" attributeType="String"/>
+        <attribute name="idAlumno" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="numero" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CursoEntity" representedClassName="CursoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="duracion" optional="YES" attributeType="String"/>
+        <attribute name="idCurso" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="profesor" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InstitucionEntity" representedClassName="InstitucionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="direccion" optional="YES" attributeType="String"/>
+        <attribute name="idInstitucion" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="numero" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MatriculaEntity" representedClassName="MatriculaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="alumno" optional="YES" attributeType="String"/>
+        <attribute name="idMatricula" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modalidad" optional="YES" attributeType="String"/>
+        <attribute name="seccion" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NoticiasEntity" representedClassName="NoticiasEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="fechaNoticia" optional="YES" attributeType="String"/>
+        <attribute name="idNoticia" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProfesorEntity" representedClassName="ProfesorEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido" optional="YES" attributeType="String"/>
+        <attribute name="correo" optional="YES" attributeType="String"/>
+        <attribute name="direccion" optional="YES" attributeType="String"/>
+        <attribute name="idProfesor" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="institucion" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="telefono" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SeccionEntity" representedClassName="SeccionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="idSeccion" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="codigo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String"/>
+        <attribute name="nombres" optional="YES" attributeType="String"/>
+        <attribute name="numero" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="role" optional="YES" attributeType="String"/>
+    </entity>
+</model>
